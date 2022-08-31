@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/heilit.github.io/static/css/main.ee3649d9.css",
-    "main.js": "/heilit.github.io/static/js/main.8c7ecb22.js",
-    "index.html": "/heilit.github.io/index.html",
-    "main.ee3649d9.css.map": "/heilit.github.io/static/css/main.ee3649d9.css.map",
-    "main.8c7ecb22.js.map": "/heilit.github.io/static/js/main.8c7ecb22.js.map"
+    "main.css": "/static/css/main.ee3649d9.css",
+    "main.js": "/static/js/main.8c7ecb22.js",
+    "index.html": "/index.html",
+    "main.ee3649d9.css.map": "/static/css/main.ee3649d9.css.map",
+    "main.8c7ecb22.js.map": "/static/js/main.8c7ecb22.js.map"
   },
   "entrypoints": [
     "static/css/main.ee3649d9.css",
