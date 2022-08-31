@@ -1,5 +1,6 @@
 {
     "name": "heilit-github-io",
+    "homepage": "https://heilit.github.io/heilit.github.io",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -12,6 +13,8 @@
         "three": "^0.141.0"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build"
     },
@@ -33,13 +36,14 @@
         ]
     },
     "devDependencies": {
-        "babel-plugin-glsl": "^1.0.0",
-        "glsl-noise": "^0.0.0",
-        "glslify": "^7.1.1",
-        "typescript": "^4.7.4",
         "@types/node": "^16.7.13",
         "@types/react": "^18.0.0",
         "@types/react-dom": "^18.0.0",
-        "@types/three": "^0.141.0"
+        "@types/three": "^0.141.0",
+        "babel-plugin-glsl": "^1.0.0",
+        "gh-pages": "^4.0.0",
+        "glsl-noise": "^0.0.0",
+        "glslify": "^7.1.1",
+        "typescript": "^4.7.4"
     }
 }
